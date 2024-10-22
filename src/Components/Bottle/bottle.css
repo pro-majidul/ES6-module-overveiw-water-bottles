@@ -3,6 +3,7 @@
     margin: 10px;
     border: 1px solid tomato;
     border-radius: 15px;
+    text-align: center;
 }
 .bottle img{
     width: 300px;
