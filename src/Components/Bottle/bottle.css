@@ -1,0 +1,9 @@
+.bottle{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid tomato;
+    border-radius: 15px;
+}
+.bottle img{
+    width: 300px;
+}
