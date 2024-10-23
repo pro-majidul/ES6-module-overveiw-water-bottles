@@ -6,7 +6,7 @@ const Card = ({ totalBottle, removeItemUI }) => {
             <h3> Total Purches Card {totalBottle.length}</h3>
             <div className='card-container'>
                 {
-                    totalBottle.map(bottle => <div key={bottle.id}>
+                    totalBottle.map(bottle => <div className='card-item' key={bottle.id}>
                         <img  src={bottle.img}></img>
                         < button onClick={()=> removeItemUI(bottle.id)} > Remove</button>
                     </div>)

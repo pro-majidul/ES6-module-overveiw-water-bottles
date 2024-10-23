@@ -4,10 +4,14 @@
 
 }
 
-.card-container button{
-    margin-top: 3px;
+.card-item button{
     background: orange;
+    margin-top: 3px;
 }
 .card-container img{
     width: 100px;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
 }
