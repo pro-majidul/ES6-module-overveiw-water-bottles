@@ -1,0 +1,13 @@
+.card-container{
+   display: flex;
+   gap:2px;
+
+}
+
+.card-container button{
+    margin-top: 3px;
+    background: orange;
+}
+.card-container img{
+    width: 100px;
+}
